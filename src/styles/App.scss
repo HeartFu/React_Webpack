@@ -1,0 +1,67 @@
+
+/*全局样式*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+ol,
+ul,
+li,
+table,
+th,
+td,
+p,
+span,
+a {
+    border: 0;
+}
+
+img,
+input {
+    border: none;
+    vertical-align: middle;
+}
+
+body,html {
+    font: 400 1em/1.5 PingFang SC,Lantinghei SC,Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans !important;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+a, input, button {
+    outline: none;
+}
+a, button {
+    cursor: pointer;
+}
+input,button {
+    background: none;
+}
+i {
+    font-style: normal;
+}

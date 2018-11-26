@@ -1,0 +1,9 @@
+{
+  "presets": ["env", "stage-2", "react"],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-runtime",
+    "syntax-dynamic-import",
+    ["import", {"libraryName": "antd", "style": "css" }]
+  ]
+}
